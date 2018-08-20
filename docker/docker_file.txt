@@ -1,0 +1,7 @@
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=chenbo -e MYSQL_DATABASE=light_blog mysql:latest
+
+docker exec -it mysql:latest bash
+
+mysql -uroot -pchenbo
+
+apt-get update && apt-get -yq install vim

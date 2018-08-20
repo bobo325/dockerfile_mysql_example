@@ -1,0 +1,9 @@
+拉取的mysql:
+1,docker pull mysql
+
+2,docker run --name=mysql -it -p 3306:3306 -e MYSQL_ROOT_PASSWORD=chenbo -d mysql
+
+3,docker exec -it mysql bash
+
+4,docker build -t mysql .
+
